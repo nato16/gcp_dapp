@@ -30,4 +30,4 @@ dapp.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    dapp.run_server(debug=True)
+    dapp.run_server(debug=True,host='0.0.0.0')
